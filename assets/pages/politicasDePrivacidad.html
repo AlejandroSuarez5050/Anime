@@ -1,0 +1,153 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Animes</title>
+    <!--Aqui se mandan a llamar los documentos que utiliza el archivo html -->
+    <link rel="stylesheet" href="../css/bootstrap.min.css" type="text/css">
+    <!-- link para archivo css de bootstrap-->
+    <link rel="stylesheet" href="../css/estilos.css" type="text/css">
+    <!-- link para el archivo css personalizado -->
+    <link rel="stylesheet" href="../css/sweetalert2.min.css" type="text/css">
+    <script src="https://kit.fontawesome.com/bfc0c3697a.js" crossorigin="anonymous"></script>
+    <!--Link de para usar iconos -->
+    <link rel="icon" type="image/vnd.microsoft.icon" href="../images/icono.ico">
+
+</head>
+<body>
+    <!--NAVBAR-->
+    <nav class="navbar navbar-expand-sm navFoot navbar-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="../../index.html">
+                <img src="../images/logoCydonia2.png" alt="" width="60">
+            </a>
+            <button class="navbar-toggler" type="button" id="buttonToggler" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav menuN">
+                    <li class="navbar-item"><a href="../../index.html" class="nav-link">Inicio</a></li>
+                    <li class="navbar-item"><a href="../pages/animes.html" class="nav-link">Animes</a></li>
+                    <li class="navbar-item"><a href="../pages/hentai.html" class="nav-link">Hentai</a></li>
+                </ul>
+                <form class="form-inline navbar-nav ml-auto">
+                    <ul class="navbar-nav align-items-center" id="iconosNav">
+                        <li class="navbar-item"><a data-toggle="modal" data-target="#staticBackdrop"><i class="fas fa-user iconos pl-3 pr-3"></i></a></li>
+                        <li class="navbar-item"><a href="../pages/descargas.html"><i class="fas fa-download iconos pl-3 pr-3"></i></a></li>
+                    </ul>
+                    <input class="form-control" type="search" placeholder="Buscar" aria-label="Buscar">
+                    <button class="btn btn-outline-light buscar" type="submit"><i class="fas fa-search buscar"></i></button>
+                </form>
+            </div>
+        </div>
+    </nav>
+    <!--MODAL-->
+    <div class="modal fade" id="staticBackdrop" data-backdrop="static" data-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="staticBackdropLabel">Inicia Sesion</h5>
+                    <button type="button" class="btn-close" data-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <form action="" id="form">
+                        <div class="formF">
+                            <div class="grupo">
+                                <input type="email" name="" id="user" required><span class="barra"></span>
+                                <label >Correo</label>
+                            </div>
+                            <div class="grupo">
+                                <input type="password" name="" id="pass" required><span class="barra"></span>
+                                <label >Contraseña</label>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+                <div class="modal-footer justify-content-center">
+                    <div class="row col-md-6">
+                        <button type="button" class="btn" data-dismiss="modal" id="btnModal">Ingresar</button>
+                    </div>
+                    <div class="row col-md-12 text-center">
+                        <a href="../pages/formulario.html">¿No tiene una cuenta? Regístrese</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--MODAL-->
+    <div class="modal fade" id="staticBackdrop" data-backdrop="static" data-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="staticBackdropLabel">Inicia Sesion</h5>
+                    <button type="button" class="btn-close" data-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <form action="" id="form">
+                        <div class="formF">
+                            <div class="grupo">
+                                <input type="email" name="" id="user" required><span class="barra"></span>
+                                <label >Correo</label>
+                            </div>
+                            <div class="grupo">
+                                <input type="password" name="" id="pass" required><span class="barra"></span>
+                                <label >Contraseña</label>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+                <div class="modal-footer justify-content-center">
+                    <div class="row col-md-6">
+                        <button type="button" class="btn btn-primary">Ingresar</button>
+                    </div>
+                    <div class="row col-md-12 text-center">
+                        <a href="">¿No tiene una cuenta? Regístrese</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+<!--CONTENIDO-->
+<div class="container-fluid">
+    <div class="row p-5">
+        <h1>Políticas de privacidad</h1>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tempore architecto asperiores eligendi non nobis repudiandae nam, molestias provident nemo magni, nulla quas nesciunt, perspiciatis porro minima eaque sequi deserunt laborum? Voluptatibus iste aliquid ab fugit ex accusantium incidunt veniam possimus sapiente quasi amet, eligendi aspernatur repellendus illum voluptates, soluta placeat cum veritatis similique corporis natus. Eius, inventore. Fugiat, quam nobis libero iste labore aperiam ut velit veritatis quaerat esse reprehenderit porro, temporibus neque reiciendis provident aliquid, pariatur repellendus? Tenetur quidem sequi voluptate non iure, voluptatem est, animi obcaecati mollitia sed temporibus veniam blanditiis eveniet amet expedita labore voluptatibus sint facere exercitationem aut saepe? Ipsam pariatur suscipit provident repellendus dolorem laudantium omnis. At voluptatem nostrum consequatur provident cum ab libero numquam, error animi omnis voluptates quo labore qui dicta eius debitis incidunt itaque tempore natus amet ratione alias dolorum. Voluptates distinctio modi similique sequi provident, illum harum esse et exercitationem optio nemo commodi saepe molestias qui iure assumenda earum nihil voluptate. Deleniti nostrum odio, suscipit eos corrupti, est ad pariatur hic porro odit architecto, impedit cum. Eveniet rem tempore deleniti, reiciendis itaque hic. A optio sapiente nulla blanditiis corporis libero incidunt. Illum animi dolorum accusantium asperiores consectetur rem, possimus nulla commodi eius quisquam ut corrupti, provident fugiat praesentium qui! Fuga incidunt velit possimus atque porro earum. Obcaecati officia in temporibus facere delectus laborum expedita architecto ipsam? Soluta excepturi deserunt molestiae aperiam id, veritatis harum laudantium sequi voluptatem adipisci, ullam fugiat ducimus magni similique aut sint aliquam accusamus incidunt quam ratione maxime. Accusamus, officiis labore ratione aperiam quisquam nostrum magni, aspernatur possimus eum eligendi nisi sunt beatae modi vel adipisci! Saepe enim laudantium iusto adipisci alias atque, commodi nostrum quis, asperiores praesentium molestias reiciendis doloribus fuga quaerat fugit. Quo enim repellat exercitationem ex officia. Cum quisquam excepturi delectus libero obcaecati maiores incidunt cumque. Laboriosam amet accusamus sapiente excepturi illo repudiandae voluptate, assumenda eos ratione voluptatum ullam iusto magnam architecto natus quidem dolorum necessitatibus debitis quisquam aspernatur, nihil inventore ex. Ratione sit accusantium eum doloremque obcaecati iusto, atque alias, labore tempora saepe dolorum ducimus repudiandae consequatur dolor deleniti quos consectetur mollitia? Tempora officiis impedit tenetur consequuntur unde fuga, odit nam expedita, in quia vitae eligendi reiciendis natus consequatur ab repellendus veritatis voluptate aut nesciunt neque inventore, corporis amet esse labore! Saepe deleniti, sit voluptas, molestias dignissimos laboriosam modi, totam nesciunt fugit maiores dolores consectetur earum. Tempore delectus quae accusantium veritatis suscipit blanditiis optio excepturi placeat quo, dicta, a ea at id quasi fuga labore quaerat non quod explicabo minus sit qui unde soluta? Possimus iusto necessitatibus dolor aspernatur minima dicta! Tempora quis explicabo at? Deserunt quod sed exercitationem voluptas dolorem perspiciatis necessitatibus numquam rem harum quos voluptatibus aut odit, blanditiis esse optio unde sapiente libero voluptatum officia dolore velit. Harum ut explicabo laudantium dignissimos fugiat dolorum consequatur distinctio minus vel aspernatur impedit eaque ipsam incidunt, nam voluptatibus optio libero nisi? Commodi hic quod sint. Non architecto, neque quos ipsa eligendi iusto cupiditate tenetur aliquam officia explicabo fugiat accusantium illo quam, quasi modi suscipit fuga. Dignissimos accusamus dicta id blanditiis nostrum et officiis, at veritatis, ducimus autem nam cupiditate neque iure dolores deleniti nisi distinctio odio, doloremque aliquam. Adipisci quidem, accusamus perferendis harum veritatis ipsum debitis et aspernatur. Esse corrupti eos magnam quidem modi ipsam dolor iusto aperiam tenetur, mollitia qui error rem, reprehenderit beatae magni. Quaerat, eveniet aliquam! In, quos officiis? Ullam nostrum a ipsam optio doloremque nemo, autem, id sed at accusamus, quidem quo eveniet nobis reiciendis sit. Nesciunt recusandae velit harum neque est aperiam eum atque maiores, accusamus culpa. Eligendi aperiam ea quis aspernatur hic alias ullam incidunt labore qui et obcaecati quasi, molestiae iure? Iste harum eaque amet itaque optio, quam atque voluptates similique consequatur cumque quos at eveniet quas, laboriosam animi aspernatur! Blanditiis sint fugiat quasi, ducimus quod incidunt deleniti, aspernatur illo natus perferendis magni delectus asperiores minima maxime quam facilis eaque libero! Temporibus voluptates amet, aspernatur aperiam et fugit sed maiores molestiae enim libero, provident odit perspiciatis voluptate nam cum similique blanditiis tempore ducimus rem atque nobis exercitationem ex eveniet. Autem aperiam veritatis, quasi, dolor, nemo odio earum possimus cupiditate distinctio optio iusto dolore non a dicta commodi aspernatur repellendus natus sapiente libero! Commodi labore distinctio, sunt fugit ducimus esse quos aspernatur voluptas recusandae reprehenderit iste tempore, eveniet doloremque culpa porro ipsam? Ad, quasi suscipit cum voluptatum distinctio quis necessitatibus saepe minus iste sed sapiente quo, aliquid error repellat fuga earum porro. Voluptatum qui iste architecto similique doloribus officia atque dignissimos, sit, laborum porro necessitatibus beatae inventore. Quis, quos vel. Officia quod perferendis officiis, rerum maiores, cum magnam dolore numquam voluptatum quae architecto veritatis saepe necessitatibus veniam quidem dolorum consequuntur, alias atque aliquam? Dicta odio amet adipisci! Beatae, nobis? Pariatur alias, accusantium aspernatur eaque exercitationem perspiciatis et inventore voluptate eligendi, cumque totam! Neque quae ex debitis odit a.</p>
+    </div>
+</div>
+<!--FOOTER-->
+<div id="footer" class="p-1 container-fluid navFoot">
+    <div class="container w-10 pt-1">
+        <div class="row justify-content-md-center py-md-1">
+            <div class="row justify-content-md-center py-md-1">
+                <div class="contenidoF1 col text-center font-weight-light">
+                    <a href="../pages/politicasDePrivacidad.html" class="p-2">Politicas de privacidad</a>
+                    <a href="../pages/terminosYCondiciones.html" class="p-2">Terminos y servicios</a>
+                </div>
+            </div>
+        </div>
+        <div class="row justify-content-md-center py-md-1">
+            <div class="contenidoF2 col text-center font-weight-light">
+                <h3>Pagina Desarrollada por Alejandro Suarez Hernandez</h3>
+                <h3>Todos los derechos reservados ©Alejandro Suarez 2020</h3>
+                <a href="https://www.facebook.com/profile.php?id=100048970758452">
+                    <i class="fab fa-facebook-square" id="facebook"></i>
+                </a>
+                <a href="https://www.instagram.com/mozart_is_my_bitch/">
+                    <i class="fab fa-instagram-square" id="instagram"></i>
+                </a>
+            </div>
+        </div>
+    </div>
+</div>
+<!--Scripts que utiliza el archivo html -->
+
+<script src="../js/jquery-3.5.1.min.js"></script>
+<script src="../js/main.js"></script>
+<script src="../js/bootstrap.min.js"></script>
+<script src="../js/popper.min.js"></script>
+<script src="../js/sweetalert2.min.js"></script>
+</body>
+</html>
